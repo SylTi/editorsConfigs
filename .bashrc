@@ -128,9 +128,9 @@ alias uxa='cd /var/www/dev-uxanalytics.content-square.fr/'
 alias lunche2e='devenv && re2e && uxa && e2e'
 PATH="$PATH:/home/sylvain/Téléchargements/phpStorm/bin"
 alias phpStorm='sh /home/sylvain/Téléchargements/phpStorm/bin/phpstorm.sh &'
-alias review='rbt post -p --target-groups=Frontend,ft-pc HEAD'
+alias review='rbt post -p --target-groups=Frontend HEAD'
 alias reviewu='rbt post -r'
-
+eval "$(thefuck-alias)"
 
 
 #  Customize BASH PS1 prompt to show current GIT repository and branch.
