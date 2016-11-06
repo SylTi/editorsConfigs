@@ -1,0 +1,31 @@
+[user]
+        email = sylvain.tissier@gmail.com
+        name = Sylvain
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+[color "diff"]
+        meta = yellow bold ul
+        frag = cyan bold ul
+        old = red bold
+        new = green bold
+
+[color "status"]
+        added = green bold
+        changed = yellow bold
+        untracked = red bold
+[grep]
+        break = true
+        heading = true
+        lineNumber = true
+[alias]
+        ct = commit
+        co = checkout
+        st = status
+        br = branch
+        lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%$'
+         g = grep --extended-regexp --break --heading --line-number
+         com = commit -m   
+[push]
+        default = simple
